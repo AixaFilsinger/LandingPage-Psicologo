@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color:#FFC1B4;
+ /* background-color:#FFC1B4;*/
+ background-color: #ffe8c8;
 }
 
 .playfair-display{
@@ -30,25 +31,29 @@
 }
 
 .seccion1{
-  background-color: #034c53;
-background-image: linear-gradient(160deg, #034c53 0%, #007074 100%);
+ /* background-color: #034c53;
+background-image: linear-gradient(160deg, #034c53 0%, #007074 100%);*/
+background-color: #4335a7;
+background-image: linear-gradient(160deg, #4335a7 64%, #80c4e9 100%);
 
- border-radius: 35px;
+
+ border-radius: 30px;
  height: 100%;
  margin: 0px;
  padding-bottom: 20px;
  
 }
 .pf{
-  color: rgb(253, 106, 80);
+  color: #4335a7;
 }
 .btn-contacto{
   border: none;
   border-radius: 30px;
   width:200px;
   height: 50px;
-  color:  #f1fffd;
-  background-color: rgb(13, 137, 122);
+  color:  rgb(67, 53, 167);
+  /*background-color: rgb(13, 137, 122);*/
+  background-color: #ffddab;
 }
 @media (min-height: 680px){
   .btn-contacto{
@@ -71,3 +76,4 @@ background-image: linear-gradient(160deg, #034c53 0%, #007074 100%);
   border: solid 1px #5f7571;
   border-radius: 10px;
 }
+
