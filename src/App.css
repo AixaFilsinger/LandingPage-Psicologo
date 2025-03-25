@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color:#d1f9f3;
+  background-color:#FFC1B4;
 }
 
 .playfair-display{
@@ -30,13 +30,17 @@
 }
 
 .seccion1{
-  background-color: #5f7571;
-background-image: linear-gradient(0deg, #364746 0%, #4d5f5e 50%, #798e8c 100%);
+  background-color: #034c53;
+background-image: linear-gradient(160deg, #034c53 0%, #007074 100%);
+
  border-radius: 35px;
  height: 100%;
  margin: 0px;
  padding-bottom: 20px;
  
+}
+.pf{
+  color: rgb(253, 106, 80);
 }
 .btn-contacto{
   border: none;

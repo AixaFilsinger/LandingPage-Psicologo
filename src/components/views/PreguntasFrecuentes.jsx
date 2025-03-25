@@ -2,7 +2,7 @@ import Accordion from 'react-bootstrap/Accordion';
 const PreguntasFrecuentes = () => {
     return (
         <section className="h-75 container-sm mx-auto text-center mt-5 mb-5" id='pf'>
-            <h3 className="fs-2 mb-4 text-body-secondary">Preguntas Frecuentes</h3>
+            <h3 className="fs-2 mb-4 pf">Preguntas Frecuentes</h3>
             <Accordion defaultActiveKey="0" flush>
       <Accordion.Item eventKey="0" className='mb-4'>
         <Accordion.Header ><h5 className='fst-italic fw-semibold'> ¿Qué necesito para hacer terapia?</h5></Accordion.Header>
