@@ -1,5 +1,6 @@
 import fotoSm from "../../assets/samuel2.jpg"
 import { Container, Row, Col } from "react-bootstrap";
+import Footer from "../common/Footer";
 const Seccion3 = () => {
   return (
     <section className="seccion1" id="sobremi">
@@ -29,6 +30,7 @@ const Seccion3 = () => {
           </Col>
         </Row>
       </Container>
+      <Footer></Footer>
     </section>
   );
 };
