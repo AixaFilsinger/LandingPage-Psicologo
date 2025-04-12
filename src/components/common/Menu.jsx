@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -8,9 +9,13 @@ const Menu = () => {
     "¡Hola! Tengo una consulta sobre Psicoterapia."
   );
   const enlaceWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${mensaje}`;
+
+  const [expanded, setExpanded] = useState(false);
+  const handleToggle = () => setExpanded(!expanded);
+  const closeNavbar = () => setExpanded(false);
   return (
     <header>
-       <Navbar expand="lg" className="poppins-thin mb-3">
+       <Navbar expanded={expanded} onToggle={handleToggle} expand="lg" className="poppins-thin mb-3">
       <Container className="mt-3">
         <Navbar.Brand href="#home" className="text-light">
           Samuel
@@ -18,13 +23,13 @@ const Menu = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#home" className="text-light">
+            <Nav.Link href="#home" className="text-light"  onClick={closeNavbar}>
               Inicio
             </Nav.Link>
-            <Nav.Link href="#sobremi" className="text-light">
+            <Nav.Link href="#sobremi" className="text-light"  onClick={closeNavbar}>
               Sobre Mi
             </Nav.Link>
-            <Nav.Link href="#pf" className="text-light">
+            <Nav.Link href="#pf" className="text-light"  onClick={closeNavbar}>
               Preguntas frecuentes
             </Nav.Link>
             <Nav.Link

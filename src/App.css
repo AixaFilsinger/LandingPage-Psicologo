@@ -35,7 +35,7 @@
  /* background-color: #034c53;
 background-image: linear-gradient(160deg, #034c53 0%, #007074 100%);*/
 background-color: #4A6572;
-background-image: linear-gradient(160deg, #4A6572 80%, #A8C3B9 100%);
+background-image: linear-gradient(160deg, #4A6572 83%, #A8C3B9 100%);
 
 
  border-radius: 30px;
@@ -44,9 +44,10 @@ background-image: linear-gradient(160deg, #4A6572 80%, #A8C3B9 100%);
  padding-bottom: 20px;
  
 }
-.pf{
-  color: #4335a7;
+#pf{
+  scroll-margin-top: 160px;
 }
+
 .btn-contacto{
   border: none;
   border-radius: 30px;

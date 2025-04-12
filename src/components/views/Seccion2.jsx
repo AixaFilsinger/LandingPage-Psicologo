@@ -2,11 +2,9 @@ import { Col, Container, Row } from "react-bootstrap";
 
 const Seccion2 = () => {
   return (
-    <section className="text-center mt-5 mb-3">
-      <h2 className="playfair-display">Preguntas Frecuentes</h2>
-      <p className="poppins-thin">
-        blablabla
-      </p>
+    <section className="text-center mt-5 mb-3" id="pf">
+      <h2 className="playfair-display mb-4">Preguntas Frecuentes</h2>
+      
       <Container className="poppins-thin">
         <Row>
           <Col sm={6} md={4}>
