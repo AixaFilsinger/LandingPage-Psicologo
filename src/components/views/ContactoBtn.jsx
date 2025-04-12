@@ -10,7 +10,7 @@ const ContactoBtn = () => {
         };
     return (
         <div>
-             <button className="btn-contacto fw-semibold"  onClick={handleClick}> <IoLogoWhatsapp className="fs-4 me-1 mb-1" />Entrar en contacto</button>
+             <button className="btn-contacto fw-semibold mb-4"  onClick={handleClick}> <IoLogoWhatsapp className="fs-4 me-1 mb-1" />Entrar en contacto</button>
         </div>
     );
 };
