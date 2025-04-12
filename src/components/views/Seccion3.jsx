@@ -1,4 +1,4 @@
-import fotoSm from "../../assets/samuel2.jpg"
+import fotoSm from "../../assets/samuel1.jpg"
 import { Container, Row, Col } from "react-bootstrap";
 import Footer from "../common/Footer";
 const Seccion3 = () => {

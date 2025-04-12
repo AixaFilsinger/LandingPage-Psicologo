@@ -1,6 +1,6 @@
 
 import { Container, Row, Col } from "react-bootstrap";
-import samuel from "../../assets/samuel1.jpg"
+import samuel from "../../assets/samuel2.jpg"
 import Menu from "../common/Menu";
 import ContactoBtn from "./ContactoBtn";
 const Seccion1 = () => {
