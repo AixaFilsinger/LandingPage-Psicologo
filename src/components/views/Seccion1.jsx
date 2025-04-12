@@ -11,10 +11,9 @@ const Seccion1 = () => {
              <Row>
                 <Col  sm={12} md={6} className="d-flex flex-column justify-content-center align-items-center">
                 <h1 className="text-light playfair-display">¡Bienvenido! Soy Samuel, <br />
-                Psicólogo migrante
+                Psicólogo
                 </h1>
-                <p className="text-light poppins-thin ms-5"> Un apasionado por ayudar a las personas a 
-                    encontrar su camino</p>
+               <p className="text-light poppins-thin ms-5">Acompaño a personas en todo el mundo a cuidar mejor de su Salud Mental.</p>
                     <ContactoBtn></ContactoBtn>
                    
                 </Col>

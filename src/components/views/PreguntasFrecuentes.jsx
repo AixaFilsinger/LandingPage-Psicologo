@@ -5,7 +5,9 @@ const PreguntasFrecuentes = () => {
             <h3 className="fs-2 mb-4 pf">Preguntas Frecuentes</h3>
             <Accordion>
       <Accordion.Item eventKey="0" className='mb-4'>
-        <Accordion.Header ><h5 className='fst-italic fw-semibold'> ¿Qué necesito para hacer terapia?</h5></Accordion.Header>
+        <Accordion.Header >
+          <h5 className='fst-italic fw-semibold'> ¿Qué necesito para hacer terapia?</h5>
+          </Accordion.Header>
         <Accordion.Body  className='nunito fs-5'>
         Puedes tomar sesiones conmigo desde cualquier parte del mundo.
          Únicamente debes disponer de internet y un espacio privado.
